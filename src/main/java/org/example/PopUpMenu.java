@@ -6,9 +6,9 @@ import java.awt.event.ActionListener;
 import javax.swing.*;
 
 class PopUpMenu extends JPopupMenu {
-  private static String ADD_NEW_ITEM = "Add New Item";
-  private static String REMOVE_ITEM = "Remove Item";
-  private static String EDIT_ITEM = "Edit Item";
+  private static final String ADD_NEW_ITEM = "Add New Item";
+  private static final String REMOVE_ITEM = "Remove Item";
+  private static final String EDIT_ITEM = "Edit Item";
 
   JMenuItem addItem;
   JMenuItem removeItem;

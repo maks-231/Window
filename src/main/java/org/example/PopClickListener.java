@@ -5,8 +5,8 @@ import java.awt.event.MouseEvent;
 import javax.swing.*;
 
 class PopClickListener extends MouseAdapter {
-  JLabel jlabel;
-  Object parent;
+  private final JLabel jlabel;
+  private final Object parent;
 
   public PopClickListener(JLabel jlabel, Object parent) {
     this.jlabel = jlabel;
